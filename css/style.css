@@ -236,7 +236,7 @@ section{
     height: 10px;
     background-color: #2F71B9;
     border: 4px solid #f1f1f1;
-    left: calc(50% - 10px);
+    left: calc(50% - 12px);
     bottom: -7px;
 }
 
@@ -406,7 +406,6 @@ section{
     width: 1px;
     height: 120%;
     background-color: #bfbfbf;
-    ;
     left: -20px;
     top: 50%;
     transform: translateY(-50%);
