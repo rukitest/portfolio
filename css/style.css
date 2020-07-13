@@ -771,6 +771,22 @@ footer .sm a{
         right: 0;
     }
 
+    .navbar-menu.active a{
+        color: #fff;
+    }
+
+    .menu-toggler span{
+        background-color: #fff;
+    }
+
+    .sticky span{
+        background-color: #000;
+    }
+
+    .menu-toggler.active span{
+        background-color: #fff;
+    }
+
     .menu-toggler.active span:nth-child(1){
         transform:rotate(-45deg);
         top: 4px;
@@ -791,6 +807,35 @@ footer .sm a{
     .inner-width{
         max-width: 90vw;
     }
+
+    /* site */
+    .sitecontainer .card .sitetext{
+        visibility: visible;
+        opacity: 1;
+        margin-top: -40px;
+    }
+    
+    .sitecontainer .card{
+        margin-top: 1rem;
+        height: 420px;
+    }
+    
+    /* 作品 */
+    .work .info
+    {
+        opacity: 1;
+        color:#fff;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        font-size: 0.8rem;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+
 
 
     /* 出来こと */
